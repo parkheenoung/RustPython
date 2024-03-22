@@ -2100,10 +2100,20 @@ dependencies = [
  "proc-macro2",
  "quote",
  "rustpython-compiler-core",
+ "rustpython-doc",
  "rustpython-parser-core",
  "syn",
  "syn-ext",
  "textwrap 0.15.2",
+]
+
+[[package]]
+name = "rustpython-doc"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1885d19895d9d29656a8a2b33e967a482b92f3d891b4fd923e40849714051bcd"
+dependencies = [
+ "once_cell",
 ]
 
 [[package]]

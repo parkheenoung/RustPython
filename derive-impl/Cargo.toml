@@ -10,7 +10,7 @@ edition = "2021"
 [dependencies]
 rustpython-compiler-core = { workspace = true }
 rustpython-parser-core = { workspace = true }
-
+rustpython-doc = "0.3.0"
 itertools = { workspace = true }
 once_cell = { workspace = true }
 syn = { workspace = true, features = ["full", "extra-traits"] }

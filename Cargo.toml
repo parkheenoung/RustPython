@@ -33,7 +33,7 @@ rustpython-parser-core = { version = "0.3.1", git = "https://github.com/parkheen
 rustpython-parser = { version = "0.3.1", git = "https://github.com/parkheenoung/Parser", branch = "0.3.1" }
 rustpython-ast = { version = "0.3.1", git = "https://github.com/parkheenoung/Parser", branch = "0.3.1" }
 rustpython-format = { version = "0.3.1", git = "https://github.com/parkheenoung/Parser", branch = "0.3.1" }
-
+rustpython-doc = "0.3.0"
 ahash = "0.7.6"
 anyhow = "1.0.45"
 ascii = "1.0"
