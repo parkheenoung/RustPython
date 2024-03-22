@@ -4,7 +4,7 @@ description = "RustPython specific bytecode."
 version = "0.3.1"
 authors = ["RustPython Team"]
 edition = "2021"
-repository = "https://github.com/RustPython/RustPython"
+repository = "https://github.com/parkheenoung/RustPython"
 license = "MIT"
 
 [dependencies]

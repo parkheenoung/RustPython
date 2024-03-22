@@ -1981,7 +1981,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "atty",
  "cfg-if",
@@ -2017,7 +2017,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython-codegen"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "ahash",
  "bitflags 2.3.1",
@@ -2035,7 +2035,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython-common"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "ascii",
  "bitflags 2.3.1",
@@ -2061,7 +2061,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython-compiler"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "rustpython-codegen",
  "rustpython-compiler-core",
@@ -2070,7 +2070,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython-compiler-core"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "bitflags 2.3.1",
  "itertools 0.10.5",
@@ -2083,7 +2083,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython-derive"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "rustpython-compiler",
  "rustpython-derive-impl",
@@ -2092,7 +2092,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython-derive-impl"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "itertools 0.10.5",
  "maplit",
@@ -2100,19 +2100,10 @@ dependencies = [
  "proc-macro2",
  "quote",
  "rustpython-compiler-core",
- "rustpython-doc",
  "rustpython-parser-core",
  "syn",
  "syn-ext",
  "textwrap 0.15.2",
-]
-
-[[package]]
-name = "rustpython-doc"
-version = "0.3.0"
-source = "git+https://github.com/RustPython/__doc__?tag=0.3.0#8b62ce5d796d68a091969c9fa5406276cb483f79"
-dependencies = [
- "once_cell",
 ]
 
 [[package]]
@@ -2129,7 +2120,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython-jit"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "approx",
  "cranelift",
@@ -2198,7 +2189,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython-pylib"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "glob",
  "rustpython-compiler-core",
@@ -2207,7 +2198,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython-stdlib"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "adler32",
  "ahash",
@@ -2278,7 +2269,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython-vm"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "ahash",
  "ascii",
@@ -2354,7 +2345,7 @@ dependencies = [
 
 [[package]]
 name = "rustpython_wasm"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "console_error_panic_hook",
  "js-sys",
